@@ -1,0 +1,285 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logout {
+    font-weight: lighter;
+}
+
+
+button {
+    
+    border: 0px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 2px;
+    text-decoration: none;
+    
+
+}
+
+li {
+    display: inline;
+    padding: 19px 10px;
+    text-decoration: none;
+    float: left;
+}
+
+.votes {
+    margin-right: 50px;
+}
+
+
+.userIssues {
+    margin-left: 10px;
+}
+
+.publicIssues {
+    margin-left: 10px;
+}
+.issue-list {
+    margin-left: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.float-right {
+    float: right;
+}
+h2 {
+    margin-bottom: 3px;
+    font-size: 25px;
+}
+
+
+
+.feed-header {
+    margin-left: 50px;
+    font-size: 29px;
+
+}
+
+.post-issue {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+
+.center {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+input {
+    justify-content: center;
+    padding:10px;
+    margin:10px 0;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-image: linear-gradient(17deg, #6b61ff, #666eff, #8e8ee6) 1; outline: none; box-shadow:7px 7px  #fadda2;
+    
+
+}
+
+/* .submit-button {
+    background-image: linear-gradient(17deg, #6b61ff, #8e8ee6);
+    color: white;
+    border-radius: 5px;
+    
+    width: 90px;
+    font-size: 17px;
+    float: right;
+    margin-right: 320px;
+    
+} */
+
+.description-input {
+    width: 500px;
+}
+
+.just-inputs{
+    margin-bottom: 20px;
+}
+
+.issue {
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    width: 1200px;
+    padding: 30px;
+}
+
+.features{
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+#pencil {
+    margin-top: 5px;
+}
+
+
+#withpencil{
+    display: flex;
+    height: 40px;
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.switch-login {
+    margin-top: 20px;
+
+}
+
+.auth-form {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.auth-container {
+    margin-top: 180px;
+}
+
+.text-logo {
+    font-size: 90px;
+    margin-bottom: 59px;
+}
+
+h2 {
+    margin-right: -30px;
+}
+
+.by {
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 25px;
+}
+
+.publicIssues {
+    margin-top: 100px;
+}
+
+.userIssues {
+    margin-top: 100px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.profile {
+    margin-top: 50px;
+}
+
+.public {
+    margin-top: 50px;
+}
+
+.comment-list {
+    border: solid black 1px;
+    height: 600px;
+}
+
+.form-control {
+    width: 500px;
+    display: inline-block;
+    border: solid rgb(175, 175, 175) 2px;
+}
+
+.btn btn-primary mb-2 {
+    background-color: rgb(175, 175, 175);
+    
+}
+
+
+#addcomment {
+    margin-bottom: 53px;
+    margin-left: 22px;
+}
+
+.form-group {
+    float: right;
+    margin-right: 5px;
+    
+}
+
+.comment {
+    height: 70px;
+    width: 300px;
+    border-left: solid 4px #fadda2;
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#by-comment {
+    font-style: italic;
+    font-weight:300;
+    font-size: 10px;
+    text-align: left;
+}
+
+#comment-itself {
+    float: left;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 5px;
+}
+
+#pencil {
+    color: rgb(218, 113, 0);
+    margin-left: 50px;
+}
+
+#comments {
+    margin-bottom: -15px;
+    margin-top: 27px;
+}
