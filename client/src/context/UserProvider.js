@@ -14,9 +14,9 @@ function UserProvider(props) {
 
 
     const initState = {
-        user: JSON.parse(localStorage.getItem('user')) || {},
+        user: JSON.parse(localStorage.getItem('user')) || {}, //saving token to local storage
         token: localStorage.getItem('token') || "",
-        issues: [],
+        issues: [], 
         errMsg: ""
     }
 
@@ -26,7 +26,7 @@ function UserProvider(props) {
         axios.post('/auth/signup', credentials)
             .then(res => {
                 const { user, token } = res.data
-                localStorage.setItem('token', token)
+                localStorage.setItem('token', token) //saving token, user to local storage
                 localStorage.setItem('user', JSON.stringify(user))
                 setUserState(prevUserState => ({
                     ...prevUserState,

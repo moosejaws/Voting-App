@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
 import CommentForm from "./CommentForm.js"
-
 import Comment from "./Comment.js"
+
+
 export default function Issue(props) {
 
   const userAxios = axios.create()
@@ -43,11 +44,11 @@ userAxios.put(`api/issue/downvotes/${issueId}`)
 
 function getAllComments() {
   userAxios.get(`/api/comment/${_id}`)
-  .then(res => {
-      setUserComments(res.data)
-      console.log(res.data)
-  }
-  )
+    .then(res => {
+        setUserComments(res.data)
+        console.log(res.data)
+    }
+    ) 
   .catch(err => console.log(err))
 }
 
