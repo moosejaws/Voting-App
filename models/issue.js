@@ -25,13 +25,17 @@ const issueSchema = new Schema({
     downVotes: {
         type: Number
     },
-    upVoted: [{
+    totalVotes: {
+        type: Number
+    },
+    /* upVoted: [{
         type: Schema.Types.ObjectId,
         ref: "User"
     }],
-    downVoted: [{type: Schema.Types.ObjectId,
+    downVoted: [{
+        type: Schema.Types.ObjectId,
         ref: "User"
-    }],
+    }] */
     user: {
         type: Schema.Types.ObjectId,
         ref: "User",

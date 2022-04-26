@@ -1,3 +1,6 @@
+VSchool, Rock the Vote Assignment
+
+
 You are going to create a full stack application with user authentication created with Node, React, Express, Mongoose & Mongodb that allows users to post and upvote or downvote political issues.
 
 This assignment has the most difficult requirements of any at V School. Ask around and find or make a friend who is working on it.

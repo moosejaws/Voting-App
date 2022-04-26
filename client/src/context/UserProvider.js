@@ -78,7 +78,7 @@ function UserProvider(props) {
                 issues: res.data
             }))
         })
-            .catch(err => console.log(err.response.data.errMsg))
+        .catch(err => console.log(err.response.data.errMsg))
     }
 
     //get only x users issues
@@ -102,14 +102,10 @@ function UserProvider(props) {
                     issues: [...prevState.issues, res.data]
                 }))
             })
-            .catch(err => console.log(err)
+                .catch(err => console.log(err)
             )
-            return getAllUserIssues()
+            return getUserIssues()
     }
-
-
-    // in add user Issue need to return get All User Isssues if completing a post on the public page. if completing post on profilie page, then should return getUserIssues() -- only their issues.
-
 
     function editUserIssue(newIssue, issueId) {
         userAxios.put(`/api/issue/${issueId}`, newIssue)
@@ -125,7 +121,7 @@ function UserProvider(props) {
                 ...prevState,
                 issues: prevState.issues.filter(issue => issue._id !== issueId)
             })))
-            .catch(err => console.log(err)
+                .catch(err => console.log(err)
             )
         return getUserIssues()
     }
@@ -148,9 +144,7 @@ function UserProvider(props) {
                 getUserIssues,
                 addUserIssue,
                 editUserIssue,
-                deleteUserIssue,
-                // submitVote
-                //handle votes?
+                deleteUserIssue
             }}>
 
             {props.children}

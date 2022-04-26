@@ -7,8 +7,6 @@ export default function CommentForm(props) {
         comment: ""
     }
 
-    //access to issue id of current issue
-    
     const [inputs, setInputs] = useState(initInputs)
 
     const { _id, submitComment } = props
@@ -20,9 +18,6 @@ export default function CommentForm(props) {
             [name]: value
         }))
     }
-
-  // const { comment } = props
-
 
     function handleSubmit(e){
         e.preventDefault()
@@ -53,5 +48,3 @@ export default function CommentForm(props) {
         </div>
     )
 }
-
-// submitComment(props._id, inputs)
